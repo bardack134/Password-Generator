@@ -24,11 +24,18 @@ print('''
 ''')
 
 
-
+print('')
 # Solicitar al usuario la longitud de letras, símbolos y números deseados
 print("Welcome to the PyPassword Generator!")
-nr_letters = int(input("How many letters would you like in your password?\n"))
+print('')
+print("Here you can create your own strong, secure password. Your new password will contain symbols '#$%', numbers '148', and letters 'abc....' You need to indicate how many  numbers, letters, and symbols your new password will contain.")
+print('')
+print('')
+
+nr_letters = int(input("How many letters 'abc..' would you like your new password to contain?\n"))
+
 nr_symbols = int(input(f"How many symbols would you like?\n"))
+
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 # Lista para almacenar el resultado final de la contraseña
